@@ -1,0 +1,15 @@
+{
+  "name": "Add Autocomplete Off",
+  "version": "0.1",
+  "description": "Add the autocomplete off attribute to Co-construct date picking inputs",
+  "permissions": [
+    "tabs", "https://www.co-construct.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.co-construct.com/*"],
+      "js": ["content.js"]
+    }
+],
+  "manifest_version": 2
+}
